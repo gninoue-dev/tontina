@@ -21,7 +21,7 @@
             </div>
             <x-progress :value="6" :max="8" />
             <p class="text-sm text-zinc-600">6 cotisations sur 8 · cagnotte : <x-fcfa :amount="200000" class="font-semibold text-zinc-900" /></p>
-            <ul class="divide-y divide-zinc-100 text-sm">
+            <ul class="liste-cascade divide-y divide-zinc-100 text-sm">
                 <li class="flex justify-between py-2"><span>Awa K.</span><span class="text-brand-700">✓ Wave</span></li>
                 <li class="flex justify-between py-2"><span>Yao B.</span><span class="text-brand-700">✓ Orange Money</span></li>
                 <li class="flex justify-between py-2"><span>Koffi N.</span><span class="text-accent-600">⏳ en attente · rappel WhatsApp</span></li>
